@@ -1,0 +1,4 @@
+bike_sharing_workspace/*
+.vscode/*
+.venv/
+__pycache__/
