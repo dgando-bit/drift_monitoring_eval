@@ -55,9 +55,9 @@ Ouvrez votre navigateur à l'adresse **http://localhost:8080** et naviguez vers 
 
 Les performances du modèle se dégradent progressivement au fil des semaines :
 
-- **Semaine 1 :** RMSE = 21,04 — performances proches de la référence janvier, dérive faible.
-- **Semaine 2 :** RMSE = 22,56 — légère dégradation, le modèle commence à sous-estimer la demande.
-- **Semaine 3 :** RMSE = 37,90 — forte dégradation, la demande réelle dépasse systématiquement les prédictions.
+- **Semaine 1 ('2011-01-29 00:00:00' : '2011-02-07 23:00:00'):** RMSE = 21,04 — performances proches de la référence janvier, dérive faible.
+- **Semaine 2 ('2011-02-07 00:00:00' : '2011-02-14 23:00:00'):** RMSE = 22,56 — légère dégradation, le modèle commence à sous-estimer la demande.
+- **Semaine 3 ('2011-02-15 00:00:00' : '2011-02-21 23:00:00'):** RMSE = 37,90 — forte dégradation, la demande réelle dépasse systématiquement les prédictions.
 
 La dérive est cumulative et s'accélère : la semaine 3 est la plus critique.
 
